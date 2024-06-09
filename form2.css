@@ -1,0 +1,32 @@
+h1 {
+  font-family: cursive;
+  color: black;
+  font-size: 40px;
+}
+.appeal {
+  padding: 50px 20px;
+  text-align: center;
+}
+.appeal h2 {
+  font-size: 36px;
+  font-family: cursive;
+  margin-bottom: 30px;
+}
+.jobs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: cursive;
+}
+.job {
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  max-width: 200px;
+  text-align: center;
+}
+.job img {
+  width: 50%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}

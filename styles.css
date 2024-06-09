@@ -1,0 +1,155 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: lightsalmon;
+  color: whitesmoke;
+}
+
+.nav-links a {
+  color: whitesmoke;
+  font-family: monospace;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+.text h1{ 
+  font-family: cursive;
+  color:black;
+  font-size: 40px;
+}
+.welcome {
+  position: relative;
+}
+.welcome h2 {
+  font-family: cursive;
+  position: absolute;
+  top: 9%;
+  right: 74%;
+}
+.centered {
+  font-family: cursive;
+  position: relative;
+  top: 60px;
+  right: -10.5%;
+  text-decoration: normal;
+}
+.notCentered{
+  font-family: cursive;
+  position: relative;
+  top: 60px;
+  right: -7.1%;
+}
+li {
+  list-style: none;
+}
+.menu {
+  display: flex;
+  gap: 48px;
+  font-size: 24px;
+}
+.menu img {
+  width: 20px;
+  position: relative;
+  top: 14.5%;
+  right: 10%;
+}
+.menu li:hover {
+  background-color: #0b0c10;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+.menu li a.active {
+  background-color: black;
+  border-radius: 5px;
+}
+.drop {
+  position: relative;
+}
+
+.dropdown {
+  background-color: darksalmon;
+  padding: 16px 0px;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 8px 16px;
+  width: 150px;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #0b0c10;
+  cursor: pointer;
+}
+
+.drop:hover .dropdown {
+  display: block;
+}
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: black;
+    padding: 10px 0px;
+    position: relative;
+    top: 485px;
+}
+.footer-column{
+   width: 30%;
+   padding: 0px 110px;
+}
+.footer-column h4{
+	font-size: 18px;
+	color: whitesmoke;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	font-weight: 400;
+	position: relative;
+}
+
+.footer-column ul li a{
+	font-size: 14px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 180;
+	color: gray;
+	transition: 0.3s ease ease-in-out;
+}
+.footer-column ul li a:hover{
+	color: white;
+}
+h1 {
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}

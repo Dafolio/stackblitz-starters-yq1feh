@@ -1,0 +1,31 @@
+.weCorrect {
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.weCorrect .text {
+  padding: 20px
+}
+.weCorrect .text h2 {
+  font-size: 36px;
+  font-family: cursive;
+  color: black;
+  margin-bottom: 20px;
+}
+.weCorrect .text p {
+  font-size: 18px;
+  font-family: cursive;
+  color: darkslategray;
+  line-height: 1.6;
+}
+.weCorrect .img img{
+  max-width: 200px;
+ width: 50%;
+}
+
+
+
+
+
